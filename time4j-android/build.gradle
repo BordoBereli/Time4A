@@ -81,8 +81,8 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
     from javadoc.destinationDir
 }
 
-apply from: 'install-v1.gradle'
-apply from: 'bintray-v1.gradle'
+//apply from: 'install-v1.gradle'
+//apply from: 'bintray-v1.gradle'
 
 dependencies {
 
